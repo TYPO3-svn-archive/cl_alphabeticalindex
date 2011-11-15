@@ -1,0 +1,19 @@
+# stdWraps
+plugin.tx_clalphabeticalindex_pi1 {
+	# title field defaults to "title"
+	useTitleField = 0
+	# exclude doktypes usually excluded from menus
+        excludeDoktypes = 5,6
+	letter_stdWrap.wrap = <span class="alpha-index">|&nbsp;</span>
+	index_stdWrap.wrap = <div class="alpha-index"> | </div>
+	pageTitle_stdWrap.wrap = <div class="alpha-index-page"> | </div>
+	parentTitle_stdWrap.wrap = &nbsp;( | )
+	pageList_stdWrap.wrap = |
+	# don't always show full list with anchors
+	list.useAnchors = 0
+	# show the anchor's name in front of each section (i.e. the letter the following page titles start with
+	list.useAnchors.showAnchor = 0
+	anchorName_stdWrap.wrap = <span class="alpha-anchor">|</span>
+	# show the selected starting points along with the child pages
+	excludeStartingPoint = 0
+}

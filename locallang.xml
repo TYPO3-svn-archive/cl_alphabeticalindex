@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>L10n for cl_alphabeticalindex (BE)</description>
+		<fileId>EXT:cl_alphabeticalindex/locallang.xml</fileId>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Alphabetical site index</label>
+			<label index="pi1_plus_wiz_description">Adds an alphabetical index of the pages of your website.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Alphabetischer Seitenindex</label>
+			<label index="pi1_plus_wiz_description">Fügt einen alphabetischen Index der Seiten ihrer Website hinzu.</label>
+		</languageKey>
+	</data>
+</T3locallang>
